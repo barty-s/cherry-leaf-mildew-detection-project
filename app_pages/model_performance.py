@@ -30,7 +30,7 @@ def model_performance_body():
     st.image(labels_distribution, caption='Sets distribution')
 
     st.warning(
-        "The plots show the proportions of how the data was split: \n\n"
+        "The plots show the proportion of how the data was split: \n\n"
         f"Train: 70%\n\n"
         f"Test: 20%\n\n"
         f"Validation: 10%\n\n"
