@@ -12,29 +12,28 @@ def project_summary_body():
         f"disease.\n\n"
         f"The ML model uses an image of a cherry tree leaf to determine the "
         f"probability of whether the leaf, and"
-        f" tree it came from, is infected or healthy."
+        f" the tree it came from, is infected or healthy."
     )
 
     st.write("---")
 
     st.success(
         f"### About The Powdery Mildew Disease\n\n"
-        f"Powdery mildew of sweet and sour cherry"
+        f"Powdery mildew of sweet and sour cherries"
         f" is caused by Podosphaera clandestina,"
         f" an obligate biotrophic fungus. Mid- and late-season sweet"
-        f" cherry (Prunus avium) cultivars are commonly affected,"
+        f" cherry (Prunus avium) trees are commonly affected,"
         f" rendering them unmarketable due to the covering of white"
         f" fungal growth on the cherry surface.\n\n"
 
         f"### Symptoms and Signs of Powdery Mildew\n\n"
-        f"Initial symptoms, often occurring 7 to 10 days after the"
+        f"Initial symptoms, often occurring 7 to 10 days after the "
         f"onset of the first irrigation, are light roughly-circular,"
-        f" powdery looking patches on young, susceptible leaves (newly"
-        f" unfolded, and light green expanding leaves)."
-        f" Older leaves develop an age-related (ontogenic) resistance to"
+        f" powdery looking patches on young, susceptible leaves.\n\n"
+        f"Older leaves develop an age-related resistance to"
         f" powdery mildew and are naturally more resistant to infection"
-        f" than younger leaves. gGermination"
-        f" and fungal growth are favored by high humidity."
+        f" than younger leaves. \n\n Germination"
+        f" and fungal growth are favoured by high humidity.\n\n"
         f" The disease is more likely to initiate on the"
         f" undersides of leaves but will occur on both sides at later stages."
         f" As the season progresses and"
@@ -43,7 +42,7 @@ def project_summary_body():
         f" cause leaves to pucker and twist.\n\n"
 
         f"### Disease Life Cycle\n\n"
-        f"The Podosphaera clandestina fungus waits out the winter season "
+        f"The fungus waits out the winter season "
         f"in buds on twigs and as chasmothecia, "
         f"which are spore-containing structures, on the bark of twigs and "
         f"branches. Secondary spores are then produced in spring "
@@ -58,7 +57,7 @@ def project_summary_body():
         f"1 - Conduct a study to visually differentiate a healthy leaf from "
         "a mildew infected leaf.\n\n"
         f"2 - Train a model to accurately predict"
-        f" whether a given leaf is infected by "
+        f" whether a given leaf is infected with "
         "powdery mildew or not."
     )
 
