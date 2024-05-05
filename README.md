@@ -81,24 +81,7 @@ Streamlit Multipage was used to create a 5 page dashboard.
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
 
-
-## Credits 
-
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
-
-
-
-## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+## Credits
+- Code Institute's 'Malaria Detector' walkthrough project which assisted greatly in understanding the steps needed to achieve a trained model.
+- Slack - for answers to questions regarding Jupyter notebooks functionality, correct Heroku version installation, plot selection.
+-github.com/broken-helix/mildew-detector - for help with the project outline and model selection
