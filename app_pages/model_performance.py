@@ -6,7 +6,7 @@ from src.machine_learning.evaluate_clf import load_test_evaluation
 
 
 def model_performance_body():
-    st.write("## Machine Learning Performance")
+    st.write("## Machine Learning Model Performance")
     st.write("---")
 
     # Set model version
@@ -29,8 +29,8 @@ def model_performance_body():
     # Display label distribution pie chart
     st.image(labels_distribution, caption='Sets distribution')
 
-    st.warning(
-        "The plots show the proportion of how the data was split: \n\n"
+    st.info(
+        "The above plots show the proportion of how the data was split: \n\n"
         f"Train: 70%\n\n"
         f"Test: 20%\n\n"
         f"Validation: 10%\n\n"
@@ -49,9 +49,9 @@ def model_performance_body():
     # Display model training and validation loss plot
     st.image(model_loss, caption='Model Training Losses')
 
-    st.warning(
+    st.info(
         "The plots show comparable results for Train and Test sets without "
-        "overfitting."
+        "overfitting the model."
     )
 
     st.write("---")
@@ -63,7 +63,7 @@ def model_performance_body():
     # Display confusion matrix
     st.image(model_cm, caption='Confusion Matrix')
 
-    st.warning(
+    st.info(
         "The confusion matrix shows a good accuracy in predicting status. "
     )
 
@@ -75,8 +75,8 @@ def model_performance_body():
     st.dataframe(pd.DataFrame(load_test_evaluation(version),
                               index=['Loss', 'Accuracy']))
 
-    st.warning(
-        f"The evaluation indicates an prediction accuracy of >97%."
+    st.info(
+        f"The evaluation indicates an prediction accuracy of over 97%."
     )
 
     st.write("---")

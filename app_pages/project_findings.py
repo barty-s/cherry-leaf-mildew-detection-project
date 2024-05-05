@@ -12,11 +12,11 @@ def project_findings_body():
 
     st.write(
         "## Project Findings\n\n"
-        "Exploratory data analysis and visual display of the average "
+        "Exploratory data analysis and montage of the average "
         "variability of healthy and infected leaf images."
     )
 
-    st.error(
+    st.info(
         "This page addresses Business Requirement 1."
     )
 
@@ -25,7 +25,7 @@ def project_findings_body():
     st.success(
         "Exploratory Data Analysis was carried out "
         "to determine if there are visible differences between healthy "
-        "and infected chery leaves, and prepare images for machine learning. \n\n "
+        "and infected chery leaves, and then prepare images for machine learning. \n\n "
         "Images from both healthy and infected leaves were assessed for "
         "average variability between labels and are displayed below.\n\n"
     )

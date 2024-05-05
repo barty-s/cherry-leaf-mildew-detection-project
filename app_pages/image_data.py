@@ -14,22 +14,22 @@ def image_data_body():
 
     st.write(
         "## Disease Prediction\n\n"
-        "Upload an image (or multiple images) of cherry leaves to discover "
-        "whether they are infected with powdery mildew disease or not, "
-        "and download a report of the results."
+        "Please upload an image(s) of a cherry leaf to discover "
+        "if it is infected with the powdery mildew disease or not. "
+        "You can then download a report of the results."
     )
 
-    st.error(
+    st.success(
         "This page addresses Business Requirement 2."
     )
 
     st.write("---")
 
     st.success(
-        "Upload a clear picture of a cherry leaf.\n\n"
-        "You can drag and drop an online image or select from "
+        "Upload an image of a cherry leaf.\n\n"
+        "Drag and drop an online image or select one from "
         "your device.\n\n"
-        "You may add multiple examples at once."
+        "You may add multiple images at once."
     )
 
     st.warning(

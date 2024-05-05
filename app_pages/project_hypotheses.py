@@ -17,14 +17,14 @@ def project_hypotheses_body():
 
     st.write("---")
 
-    st.success(
+    st.info(
         "### Hypothesis 1\n\n"
         "***There is a visible difference between infected and healthy" 
         "cherry tree leaves due to the presence of a powdery mildew.***\n\n"
         "This hypothesis links to Business Requirement 1."
     )
 
-    st.warning(
+    st.success(
         "Average infected leaf images show a cloudy appearance in the image "
         "centre and have a uniform appearance in average variability images."
     )
@@ -42,7 +42,7 @@ def project_hypotheses_body():
         caption='Infected Leaves - Average and Variability'
     )
 
-    st.warning(
+    st.successs(
         "Average healthy leaf images display a clear patch in the image "
         "centre and a dark centre in average variability images."
     )
@@ -60,7 +60,7 @@ def project_hypotheses_body():
 
     st.write("---")
 
-    st.success(
+    st.info(
         "### Hypothesis 2\n\n"
         f"***It is possible to train a model to predict, with at least 97% accuracy,*** "
         "***if an image of a cherry tree leaf is infected with powdery*** "

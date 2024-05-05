@@ -16,18 +16,26 @@ def project_summary_body():
 
     st.success(
         f"### About The Powdery Mildew Disease\n\n"
-        f"Powdery Mildew disease is caused by *Podosphaera clandestina*, "
-        f"one of the common species of the powdery mildew group of fungi.\n\n"
-        f"The disease affects cherry trees and damages and stunts new growth. "
-        f"It can also affect crop return in commercial settings.\n\n"
+        f"Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina," 
+        f" an obligate biotrophic fungus. Mid- and late-season sweet"
+        f" cherry (Prunus avium) cultivars are commonly affected," 
+        f" rendering them unmarketable due to the covering of white"
+        f" fungal growth on the cherry surface.\n\n" 
 
         f"### Symptoms and Signs of Powdery Mildew\n\n"
-        f"Powdery mildew presents as superficial, white, weblike growth on "
-        f"leaves, shoots, or fruit.\n\n"
-        f"At first, infected leaves curl upward and by mid-season, "
-        f"the whitish "
-        f"fungus can be seen growing over the leaves and shoots, sometimes in "
-        f"patches and other times covering most of the new growth.\n\n"
+        f"Initial symptoms, often occurring 7 to 10 days after the" 
+        f"onset of the first irrigation, are light roughly-circular,"
+        f" powdery looking patches on young, susceptible leaves (newly"
+        f" unfolded, and light green expanding leaves)." 
+        f" Older leaves develop an age-related (ontogenic) resistance to"
+        f" powdery mildew and are naturally more resistant to infection" 
+        f" than younger leaves. gGermination" 
+        f" and fungal growth are favored by high humidity." 
+        f" The disease is more likely to initiate on the" 
+        f" undersides of leaves but will occur on both sides at later stages." 
+        f" As the season progresses and" 
+        f" infection is spread by wind, leaves may become distorted, "
+        f"curling upward. Severe infections may cause leaves to pucker and twist.\n\n"
 
         f"### Disease Life Cycle\n\n"
         f"The Podosphaera clandestina fungus waits out the winter season "
@@ -39,7 +47,7 @@ def project_summary_body():
 
     st.write("---")
 
-    st.warning(
+    st.info(
         f"### Business Requirements\n\n"
         f"This project addresses two business requirements:\n\n"
         f"1 - Conduct a study to visually differentiate a healthy leaf from "
