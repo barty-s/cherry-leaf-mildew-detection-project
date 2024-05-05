@@ -42,7 +42,7 @@ def project_hypotheses_body():
         caption='Infected Leaves - Average and Variability'
     )
 
-    st.successs(
+    st.success(
         "Average healthy leaf images display a clear patch in the image "
         "centre and a dark centre in average variability images."
     )

@@ -87,6 +87,22 @@ Streamlit Multipage was used to create a 5 page dashboard with a menu - select w
 - Scikit-learn - for predictive analysis
 - Tensorflow - for model training
 
+## Testing
+The python files in the app_pages directory were all tested with Code Institute Python Linter. All files have been tidied up to remove trailing white space and break up any lines with too many characters.
+
+## CRISP-DM
+- The CRISP-DM approach was used to carry out this project.
+- The project was planned using a GitHub projects Kanban board, with each stage of the project development broken into Epics and User Stories. 
+- The MoSCoW approach for task prioritisation was also used.
+
+<img src="docs/kanban.png">
+
+<img src="docs/epics.png">
+
+<img src="docs/user-stories.png">
+
+<img src="docs/labels.png">
+
 ## Credits
 - [Code Institute](https://codeinstitute.net/ie/) - The 'Malaria Detector' walkthrough project assisted greatly in understanding the steps needed to achieve a trained ML model.
 - Slack Community - for answers to questions regarding Jupyter notebook functionality, correct Heroku version installation and plot selection.
