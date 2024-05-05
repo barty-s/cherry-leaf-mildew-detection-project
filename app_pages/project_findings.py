@@ -25,7 +25,8 @@ def project_findings_body():
     st.success(
         "Exploratory Data Analysis was carried out "
         "to determine if there are visible differences between healthy "
-        "and infected chery leaves, and then prepare images for machine learning. \n\n "
+        "and infected chery leaves, and then prepare"
+        " images for machine learning. \n\n "
         "Images from both healthy and infected leaves were assessed for "
         "average variability between labels and are displayed below.\n\n"
     )
@@ -39,7 +40,7 @@ def project_findings_body():
             f"outputs/{version}/avg_var_powdery_mildew.png")
         avg_uninfected = plt.imread(f"outputs/{version}/avg_var_healthy.png")
 
-        st.warning(
+        st.info(
             "There are visible differences between healthy and infected "
             "images.\n\n"
             "Infected leaves generate average images which are lighter in "
@@ -63,7 +64,7 @@ def project_findings_body():
                    "average healthy leaves"):
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
-        st.warning(
+        st.info(
             "Combining average images from healthy and infected leaf images "
             "didn't show any noticeable patterns."
         )
@@ -74,8 +75,8 @@ def project_findings_body():
     st.write("---")
 
     if st.checkbox("Image Montage"):
-        st.warning("To refresh the montage, "
-                   "click on the 'Create Montage' button")
+        st.info("To refresh the montage, "
+                "click on the 'Create Montage' button")
         my_data_dir = 'inputs/cherry-leaf-dataset/cherry-leaves'
         labels = os.listdir(my_data_dir + '/validation')
         label_to_display = st.selectbox(

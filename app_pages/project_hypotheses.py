@@ -19,7 +19,7 @@ def project_hypotheses_body():
 
     st.info(
         "### Hypothesis 1\n\n"
-        "***There is a visible difference between infected and healthy" 
+        "***There is a visible difference between infected and healthy"
         "cherry tree leaves due to the presence of a powdery mildew.***\n\n"
         "This hypothesis links to Business Requirement 1."
     )
@@ -62,7 +62,8 @@ def project_hypotheses_body():
 
     st.info(
         "### Hypothesis 2\n\n"
-        f"***It is possible to train a model to predict, with at least 97% accuracy,*** "
+        f"***It is possible to train a model to"
+        " predict, with at least 97% accuracy,*** "
         "***if an image of a cherry tree leaf is infected with powdery*** "
         "***mildew or not.***\n\n"
         "This hypothesis links to Business Requirement 2."
@@ -74,7 +75,7 @@ def project_hypotheses_body():
         version), index=['Loss', 'Accuracy']))
 
     st.warning(
-        f"The model used for the prediction task has a " 
+        f"The model used for the prediction task has a "
         f"prediction accuracy of >97%."
     )
 

@@ -91,5 +91,5 @@ Streamlit Multipage was used to create a 5 page dashboard.
 ## Credits
 - [Code Institute](https://codeinstitute.net/ie/) - The 'Malaria Detector' walkthrough project assisted greatly in understanding the steps needed to achieve a trained ML model.
 - Slack Community - for answers to questions regarding Jupyter notebook functionality, correct Heroku version installation and plot selection.
-- github.com/broken-helix/mildew-detector - for help with the project's outline and model selection.
-- [Treefruit.wsu.edu](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1)) - for information on the Powedery Mildew Disease.
+- [github.com/broken-helix/mildew-detector](https://github.com/broken-helix/mildew-detector?tab=readme-ov-file) - for help with the project's outline and model selection.
+- [Treefruit.wsu.edu](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1) - for information on the Powedery Mildew Disease.
