@@ -62,10 +62,10 @@ def project_hypotheses_body():
 
     st.info(
         "### Hypothesis 2\n\n"
-        f"***It is possible to train a model to"
-        " predict, with at least 97% accuracy,*** "
-        "***if an image of a cherry tree leaf is infected with powdery*** "
-        "***mildew or not.***\n\n"
+        f"***It is possible to train a model to predict"
+        "with at least 97% accuracy,*** "
+        "***if a cherry tree leaf is infected with powdery*** "
+        "***mildew or not from an image of that leaf.***\n\n"
         "This hypothesis links to Business Requirement 2."
     )
 

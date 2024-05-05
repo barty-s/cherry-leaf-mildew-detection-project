@@ -9,7 +9,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
-* 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+* 2 - The client is interested in predicting if a given cherry leaf is healthy or contains powdery mildew.
 
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).
@@ -26,7 +26,7 @@ with an average image study.
 
 
 ### Hypothesis 2
-It is possible to train a model to predict, with at least **97%** accuracy, if an image of a cherry tree leaf is infected with powdery mildew or not.
+It is possible to train a model to predict, with at least **97%** accuracy, if a cherry tree leaf is infected with powdery mildew or not from an image of that leaf.
 
 ### Hypothesis 2 Validation:
 The hypothesis will be tested by training a model on a train and a test set of images and by calculating the accuracy with a validation set of images.
@@ -48,19 +48,18 @@ The CRISP-DM workflow was utilised throughout this project to achieve satisfacto
 ## Machine Learning Business Case
 - As the project requires prediction, an ML binary classifcation model was chosen to be trained.
 - As the task is binary classification, a supervised, 2-class, single-label model with an Adagrad optimizer was chosen.
-- The model was required to produce predicition accuracy of at least 97%. This was achieved with the selected model.
-- By using this trained model, the workers at Farmy & Foods can take action on treating or removing any infected cherry trees in order to protect their orchard from further infection and potential revenue reductions.
+- The model was required to return a predicition accuracy of at least 97%. This was achieved with the selected model.
+- By using this trained model, the workers at Farmy & Foods can take action on treating, or removing, any infected cherry trees in order to protect their orchard from further infection and any potential revenue reductions.
 
 
 ## Dashboard Design
-Streamlit Multipage was used to create a 5 page dashboard.
+Streamlit Multipage was used to create a 5 page dashboard with a menu - select which page of the dashboard you want to view.
 
-- Menu - select which page of the dashboard you want to view
 1. Project Summary page - contains blocks of information about the Business Requirements, the mildew disease, and the dataset.
 2. Project Findings - contains 3 tick boxes the user can interact with to select to view the difference between an average leaf and the variability, or to view the differences between average infected and average healthy leaves, or to view a montage of images of healthy and infected leaves selected at random from the dataset.
 3. Image Data - contains a link to the dataset on kaggle.com, a widget to drag and drop an unseen image to be predicted on with the trained model and a widget to download a report on the prediction.
-4. Project Hypotheses - this page contains blocks of information regarding the above outlined project hypotheses and is supported with images of an average healthy and infected leaves as well as a report on the accuracy of the trained model.
-5. Model Performance - this is a more technical page with images of plots outlining how the dataset was split for train, test and validation sets, and plots to outline how the model performed during training to reach the required level of >97% accuracy.
+4. Project Hypotheses - this page contains blocks of information regarding the above outlined project hypotheses and is supported with images of an average healthy and infected leaves, as well as a report on the accuracy of the trained model.
+5. Model Performance - this is a more technical page with images of plots outlining how the dataset was split for train, test and validation sets, and plots outlining how the model performed during training to reach the required level of >97% accuracy.
 
 
 ## Deployment
@@ -92,4 +91,4 @@ Streamlit Multipage was used to create a 5 page dashboard.
 - [Code Institute](https://codeinstitute.net/ie/) - The 'Malaria Detector' walkthrough project assisted greatly in understanding the steps needed to achieve a trained ML model.
 - Slack Community - for answers to questions regarding Jupyter notebook functionality, correct Heroku version installation and plot selection.
 - [github.com/broken-helix/mildew-detector](https://github.com/broken-helix/mildew-detector?tab=readme-ov-file) - for help with the project's outline and model selection.
-- [Treefruit.wsu.edu](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1) - for information on the Powedery Mildew Disease.
+- [Treefruit.wsu.edu](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1) - for information on the Powdery Mildew Disease.
