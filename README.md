@@ -66,7 +66,7 @@ Streamlit Multipage was used to create a 5 page dashboard.
 ## Deployment
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
+* The App live link is: https://cherry-leaf-mildew-detector-aec055e87e74.herokuapp.com/ 
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
@@ -79,9 +79,16 @@ Streamlit Multipage was used to create a 5 page dashboard.
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+- NumPy - to work with data in arrays 
+- Pandas - for data manipulation and analysis
+- Matplotlib - for data visualisation
+- Seaborn - for data visualisation
+- Plotly - for graphs and plots
+- Streamlit - for the app interface deployed on Heroku
+- Scikit-learn - for predictive analysis
+- Tensorflow - for model training
 
 ## Credits
-- Code Institute's 'Malaria Detector' walkthrough project which assisted greatly in understanding the steps needed to achieve a trained model.
-- Slack - for answers to questions regarding Jupyter notebooks functionality, correct Heroku version installation, plot selection.
--github.com/broken-helix/mildew-detector - for help with the project outline and model selection
+- [Code Institute](https://codeinstitute.net/ie/)'s 'Malaria Detector' walkthrough project which assisted greatly in understanding the steps needed to achieve a trained model.
+- Slack Community - for answers to questions regarding Jupyter notebook functionality, correct Heroku version installation and plot selection.
+- github.com/broken-helix/mildew-detector - for help with the project's outline and model selection.
