@@ -1,21 +1,6 @@
-## Cloud IDE Reminders
+# Cherry Leaf Mildew Detection Project
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-
-## Dataset Content
-* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
-* The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
-
-
+This project employs machine learning to train a model to predict if a cherry tree leaf is infected or not.
 
 ## Business Requirements
 The cherry plantation crop from Farmy & Foods is facing a challenge where their cherry plantations have been presenting powdery mildew. Currently, the process is manual verification if a given cherry tree contains powdery mildew. An employee spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. If there is powdery mildew, the employee applies a specific compound to kill the fungus. The time spent applying this compound is 1 minute.  The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
@@ -26,6 +11,9 @@ To save time in this process, the IT team suggested an ML system that detects in
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
+## Dataset Content
+* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).
+* The dataset contains over 4, 000 images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
 
 ## Hypothesis and Hypothesis Validation
 
@@ -38,25 +26,38 @@ with an average image study.
 
 
 ### Hypothesis 2
-Train a model to predict, with at least **97%** accuracy, if an image of a cherry tree leaf is infected with powdery mildew or not.
+It is possible to train a model to predict, with at least **97%** accuracy, if an image of a cherry tree leaf is infected with powdery mildew or not.
 
 ### Hypothesis 2 Validation:
 The hypothesis will be tested by training a model on a train and a test set of images and by calculating the accuracy with a validation set of images.
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
 
-Classification model - we can classfiy the leaf images with the mildew and without the mildew.
+The CRISP-DM workflow was utilised throughout this project to achieve satisfactory results for the two business requirements.
+
+### Business Requirement 1
+- An average image study was selected for this business requirement as it allows the client to see what an average healthy leaf looks like and what an average infected leaf looks like.
+- An image montage was created to allow the user peruse some examples of healthy and infected images.
 
 
-## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+### Business Requirement 2
+- A machnine learning model was selected to address the second business requirement. A binary classifier was used to determine if an image from the dataset was healthy or infected.
+- An option to upload a new cherry leave image is also available to the user to allow them to use the trained model on unseen images and download a report afterwards.
+
+## Machine Learning Business Case
+- As the project requires prediction, an ML binary classifcation model was chosen to be trained.
+- As the task is binary classification, a supervised, 2-class, single-label model with an Adagrad optimizer was chosen.
+- The model was required to produce predicition accuracy of at least 97%. This was achieved with the selected model.
+- By using this trained model, the workers at Farmy & Foods can take action on treating or removing any infected cherry trees in order to protect their orchard from further infection and potential revenue reductions.
 
 
 ## Dashboard Design
+Streamlit Multipage was used to create a 5 page dashboard.
+
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-* Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+
+
 
 
 ## Unfixed Bugs

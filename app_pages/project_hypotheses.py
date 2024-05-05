@@ -19,8 +19,8 @@ def project_hypotheses_body():
 
     st.success(
         "### Hypothesis 1\n\n"
-        "***There is a visual difference in appearance between infected and "
-        "healthy cherry tree leaves.***\n\n"
+        "***There is a visible difference between infected and healthy" 
+        "cherry tree leaves due to the presence of a powdery mildew.***\n\n"
         "This hypothesis links to Business Requirement 1."
     )
 
@@ -62,9 +62,9 @@ def project_hypotheses_body():
 
     st.success(
         "### Hypothesis 2\n\n"
-        f"***It is possible to predict, with at least 97% accuracy,*** "
+        f"***It is possible to train a model to predict, with at least 97% accuracy,*** "
         "***if an image of a cherry tree leaf is infected with powdery*** "
-        "***mildew.***\n\n"
+        "***mildew or not.***\n\n"
         "This hypothesis links to Business Requirement 2."
     )
 
