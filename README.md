@@ -55,13 +55,13 @@ The CRISP-DM workflow was utilised throughout this project to achieve satisfacto
 ## Dashboard Design
 Streamlit Multipage was used to create a 5 page dashboard.
 
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
+- Menu - select which page of the dashboard you want to view
+1. Project Summary page - contains blocks of information about the Business Requirements, the mildew disease, and the dataset.
+2. Project Findings - contains 3 tick boxes the user can interact with to select to view the difference between an average leaf and the variability, or to view the differences between average infected and average healthy leaves, or to view a montage of images of healthy and infected leaves selected at random from the dataset.
+3. Image Data - contains a link to the dataset on kaggle.com, a widget to drag and drop an unseen image to be predicted on with the trained model and a widget to download a report on the prediction.
+4. Project Hypotheses - this page contains blocks of information regarding the above outlined project hypotheses and is supported with images of an average healthy and infected leaves as well as a report on the accuracy of the trained model.
+5. Model Performance - this is a more technical page with images of plots outlining how the dataset was split for train, test and validation sets, and plots to outline how the model performed during training to reach the required level of >97% accuracy.
 
-
-
-
-## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 ### Heroku
