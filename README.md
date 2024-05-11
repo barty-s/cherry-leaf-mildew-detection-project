@@ -91,7 +91,7 @@ Streamlit Multipage was used to create a 5-page dashboard with a menu - select w
 ### Python PEP-8
 The python files in the app_pages directory were all tested with [Code Institute Python Linter](https://pep8ci.herokuapp.com/). All files have been tidied up to remove trailing white space and break up any lines with too many characters.
 
--Multi Page - <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-mp.png"></details>
+- Multi Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-mp.png"></details>
 - Project Summary Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-ps.png"></details>
 - Project Findings Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-pf.png"></details>
 - Image Data Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-id.png"></details>
