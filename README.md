@@ -88,7 +88,19 @@ Streamlit Multipage was used to create a 5 page dashboard with a menu - select w
 - Tensorflow - for model training
 
 ## Testing
-The python files in the app_pages directory were all tested with Code Institute Python Linter. All files have been tidied up to remove trailing white space and break up any lines with too many characters.
+### Python PEP-8
+The python files in the app_pages directory were all tested with [Code Institute Python Linter](https://pep8ci.herokuapp.com/). All files have been tidied up to remove trailing white space and break up any lines with too many characters.
+
+-Multi Page - <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-mp.png"></details>
+- Project Summary Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-ps.png"></details>
+- Project Findings Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-pf.png"></details>
+- Image Data Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-id.png"></details>
+- Project Hypotheses Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-ph.png"></details>
+- Model Performance Page <details><summary>View result </summary><img src= "docs/streamlit-testing/pylint-modelp.png"></details>
+
+### Manual Testing
+Follow this [link](TESTING.md) to view the results of the manual testing carried out on the Streamlit App pages.
+
 
 ## CRISP-DM
 - The CRISP-DM approach was used to carry out this project.
