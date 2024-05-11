@@ -18,7 +18,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Hypothesis and Hypothesis Validation
 
 ### Hypothesis 1
-There is a visible difference between infected and healthy cherry tree leaves due to the presence of a powdery mildew.
+There is a visible difference between infected and healthy cherry tree leaves due to the presence of powdery mildew.
 
 ### Hypothesis 1 Validation: 
 Conduct a study to visually differentiate a healthy leaf from an infected one. This will be done
@@ -38,27 +38,27 @@ The CRISP-DM workflow was utilised throughout this project to achieve satisfacto
 
 ### Business Requirement 1
 - An average image study was selected for this business requirement as it allows the client to see what an average healthy leaf looks like and what an average infected leaf looks like.
-- An image montage was created to allow the user peruse some examples of healthy and infected images.
+- An image montage was created to allow the user to peruse some examples of healthy and infected images.
 
 
 ### Business Requirement 2
-- A machnine learning model was selected to address the second business requirement. A binary classifier was used to determine if an image from the dataset was healthy or infected.
+- A machine learning model was selected to address the second business requirement. A binary classifier was used to determine if an image from the dataset was healthy or infected.
 - An option to upload a new cherry leave image is also available to the user to allow them to use the trained model on unseen images and download a report afterwards.
 
 ## Machine Learning Business Case
-- As the project requires prediction, an ML binary classifcation model was chosen to be trained.
+- As the project requires prediction, an ML binary classification model was chosen to be trained.
 - As the task is binary classification, a supervised, 2-class, single-label model with an Adagrad optimizer was chosen.
-- The model was required to return a predicition accuracy of at least 97%. This was achieved with the selected model.
-- By using this trained model, the workers at Farmy & Foods can take action on treating, or removing, any infected cherry trees in order to protect their orchard from further infection and any potential revenue reductions.
+- The model was required to return a prediction accuracy of at least 97%. This was achieved with the selected model.
+- By using this trained model, the workers at Farmy & Foods can take action on treating or removing, any infected cherry trees in order to protect their orchard from further infection and any potential revenue reductions.
 
 
 ## Dashboard Design
-Streamlit Multipage was used to create a 5 page dashboard with a menu - select which page of the dashboard you want to view.
+Streamlit Multipage was used to create a 5-page dashboard with a menu - select which page of the dashboard you want to view.
 
 1. Project Summary page - contains blocks of information about the Business Requirements, the mildew disease, and the dataset.
-2. Project Findings - contains 3 tick boxes the user can interact with to select to view the difference between an average leaf and the variability, or to view the differences between average infected and average healthy leaves, or to view a montage of images of healthy and infected leaves selected at random from the dataset.
+2. Project Findings - contains 3 tick boxes the user can interact with to select to view the difference between an average leaf and the variability, to view the differences between average infected and average healthy leaves, or to view a montage of images of healthy and infected leaves selected at random from the dataset.
 3. Image Data - contains a link to the dataset on kaggle.com, a widget to drag and drop an unseen image to be predicted on with the trained model and a widget to download a report on the prediction.
-4. Project Hypotheses - this page contains blocks of information regarding the above outlined project hypotheses and is supported with images of an average healthy and infected leaves, as well as a report on the accuracy of the trained model.
+4. Project Hypotheses - this page contains blocks of information regarding the above-outlined project hypotheses and is supported with images of average healthy and infected leaves, as well as a report on the accuracy of the trained model.
 5. Model Performance - this is a more technical page with images of plots outlining how the dataset was split for train, test and validation sets, and plots outlining how the model performed during training to reach the required level of >97% accuracy.
 
 
